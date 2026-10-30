@@ -1,0 +1,14 @@
+"text": "Here is the standard C++ code to print \"Hello, World!\":\n\n```
+cpp\n#include <iostream>\n\n
+int main() {\n    
+std::cout << \"Hello, World!\" << std::endl;\n    
+return 0;\n}\n```\n\n
+### Explanation of the code:\n* 
+`#include <iostream>`: This line includes the Input/Output stream library, 
+which is needed to use `std::cout` to print text to the screen.\n* `int main()`: 
+This is the main function where the execution of every C++ program begins.\n* `
+std::cout`: This stands for \"character output\" and is used to send data to the 
+screen.\n* `<<`: This is the insertion operator, used to send the string \"Hello, World!\" 
+to `std::cout`.\n* `std::endl`: This inserts a new line character and flushes the output buffer. 
+(You can also use `\"\\n\"`).\n* `return 0;`: This signals to the operating system that the 
+program has finished running successfully.",
